@@ -1,5 +1,17 @@
+# Python Exercises
+
 # 1. Create a function that will group the list of persons.
-persons = ['Jay', 'Ana', 'Kim', 'Kc'];
+def group_list():
+
+    new_dict = {}
+
+    new_dict['A'] = ['Jay', 'Ana']
+    new_dict['B'] = ['Kim', 'Kc']
+
+    return new_dict
+
+print(group_list())
+        
 
 # 2. Write a script that will insert data inside a list without using append.
 countries = ['Philippines', 'Korea', 'Japan', 'Thailand', 'USA'];

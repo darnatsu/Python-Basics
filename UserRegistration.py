@@ -38,6 +38,7 @@ class UserRegistration:
         for x in range(len(self.user)):
             if self.user[x]['ID'] == user_id:
                 del self.user[x]
+                break
 
 
     def display(self):
