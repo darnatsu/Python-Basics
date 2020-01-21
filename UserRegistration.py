@@ -86,7 +86,7 @@ while choice != 0:
 
         user.update_user(n, first_name, last_name, full_name, email)
         print("List: ", user.display())
-        
+
     elif choice == 0:
         print("Exiting!")
 
