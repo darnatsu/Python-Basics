@@ -20,7 +20,7 @@ def insert_data(list, value):
     list2 = list + [value]
     return list2
 
-print insert_data(countries, 'Singapore')
+print("Insert Data inside list", insert_data(countries, 'Singapore'))
 
 
 # 3. Write a script that will return a list of odd numbers
@@ -156,7 +156,7 @@ print("Remove non-integer from list", remove_non_integer([2,'a', '2', {1: 'one'}
 # 15. Write a python code to display given: [a,b,c] [x,y,z]
 def display_vertical_list(myList):
     for x, y in zip(*myList):
-        print x, y
+        print(x, y)
 
 print("Display list vertically")
 display_vertical_list([['a','b','c'],['x','y','z']])
