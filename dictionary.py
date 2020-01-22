@@ -21,6 +21,13 @@ def update_age(profile, value):
 
 print("Updated Age", update_age(profile, 26))
 
+
+def update_dict_by_key(profile, key, value):
+    profile[key] = value;
+    return profile
+
+print("Update dictionary by key", update_dict_by_key(profile, 'First Name', 'Dar'))
+
 def add_new_entry(profile, index, value):
     profile[index] = value;
     return profile
@@ -36,3 +43,10 @@ def clear_profile(profile):
 print("Added School", add_new_entry(profile, 'School', 'UIC'))
 print("Remove Age", remove_entry(profile, 'Age'))
 print("Clear Profile", clear_profile(profile))
+
+def delete_dict(dict):
+    del dict
+    return True
+
+print("Delete Dict")
+delete_dict(profile)
